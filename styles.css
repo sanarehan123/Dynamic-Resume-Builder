@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3, h4 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f1f1f1;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #e2e6ea;
+}
+
+#resumeOutput {
+    margin-top: 30px;
+    border-top: 2px solid #ddd;
+    padding-top: 20px;
+}
+
+#resumePreview h3, #resumePreview p {
+    margin: 5px 0;
+}
+
+[contenteditable="true"] {
+    outline: 2px dashed #007bff;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dynamic Resume Builder</h1>
+
+        <!-- Personal Information -->
+        <div class="form-section">
+            <h2>Personal Information</h2>
+            <input type="text" id="nameInput" placeholder="Full Name" />
+            <input type="email" id="emailInput" placeholder="Email Address" />
+            <input type="tel" id="phoneInput" placeholder="Phone Number" />
+        </div>
+
+        <!-- Education -->
+        <div class="form-section">
+            <h2>Education</h2>
+            <input type="text" id="educationInput" placeholder="Degree and Institution" />
+            <button id="addEducationButton">Add Education</button>
+            <ul id="educationList"></ul>
+        </div>
+
+        <!-- Work Experience -->
+        <div class="form-section">
+            <h2>Work Experience</h2>
+            <input type="text" id="workInput" placeholder="Job Title and Company" />
+            <button id="addWorkButton">Add Experience</button>
+            <ul id="workList"></ul>
+        </div>
+
+        <!-- Skills -->
+        <div class="form-section">
+            <h2>Skills</h2>
+            <input type="text" id="skillInput" placeholder="Skill" />
+            <button id="addSkillButton">Add Skill</button>
+            <ul id="skillList"></ul>
+        </div>
+
+        <!-- Generate Resume -->
+        <button id="generateResumeButton">Generate Resume</button>
+
+        <!-- Output Section -->
+        <div id="resumeOutput">
+            <h2>Generated Resume</h2>
+            <div id="resumePreview">
+                <!-- Resume Content Appears Here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
